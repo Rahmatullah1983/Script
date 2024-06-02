@@ -5,7 +5,7 @@ import DarkButton from "../../assets/website/dark-mode-button.png";
 const DarkMode = () => {
     const [theme, setTheme] = React.useState(
         localStorage.getItem("theme") ? localStorage.getItem
-            ("them") : "light"
+            ("theme") : "light"
     )
     React.useEffect(() => {
         const element = document.documentElement;
