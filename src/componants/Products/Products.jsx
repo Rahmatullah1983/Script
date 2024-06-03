@@ -71,12 +71,13 @@ const Products = () => {
                                 data-aos="fade-up"
                                 data-aos-delay={data.aosDelay}
                                 key={data.id}
-                                className='space-y-3'>
+                                className='space-y-3 px-0 mx-0'>
 
                                 <img
                                     src={data.img}
                                     alt={data.title}
-                                    className='h-[220px] w-[150px]  object-cover rounded-md'
+                                    className='w-[300px] h-[50vh] sm:w-[150px] sm:h-[220px] object-cover rounded-md'
+                                // className='h-[220px] w-[150px]   object-cover rounded-md'
                                 />
                                 <div>
                                     <h3 className='font-semibold'>
