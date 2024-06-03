@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './componants/Navbar/Navbar'
 import Hero from './componants/Hero/Hero'
 import Products from './componants/Products/Products'
+import TopProducts from './componants/TopProducts/TopProducts'
 import AOS from 'aos';
 import "aos/dist/aos.css"
 
@@ -20,7 +21,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Products />
-
+      <TopProducts />
 
 
     </div>
