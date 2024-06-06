@@ -55,9 +55,9 @@ const Products = () => {
             <div className='container'>
                 {/* Header section */}
                 <div className='text-center mb-10 max-w-[40rem] mx-auto'>
-                    <p data-aos="fde-up" className='text-sm text-primary'>Top Selling Products for you</p>
-                    <h1 data-aos="fde-up" className='text-3xl font-bold'>Products</h1>
-                    <p data-aos="fde-up" className='text-sm text-gray-400'>
+                    <p data-aos="fade up" className='text-sm text-primary'>Top Selling Products for you</p>
+                    <h1 data-aos="fade-up" className='text-3xl font-bold'>Products</h1>
+                    <p data-aos="fade-up" className='text-sm text-gray-400'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia rem sequi harum aut quis recusandae
                         fugit soluta, placeat odit repellendus commodi enim numquam alias iusto modi, unde libero, expedita odio.
                     </p>

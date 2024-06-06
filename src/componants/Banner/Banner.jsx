@@ -10,7 +10,7 @@ const Banner = () => {
     return (
         <div className='mt-10 min-h-[550px] flex justify-center items-center py-12 sm:py-0'>
             <div className='container'>
-                <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 items-center'>
+                <div className='grid  w-[100%]  grid-cols-1 md:grid-cols-2 sm:grid-cols-1 gap-6 items-center '>
                     {/* Image Section */}
                     <div data-aos="zoom-in">
                         <img src={BannerImage} alt="Banner" className='max-w-[400px] h-[350px] w-full mx-10 drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover' />

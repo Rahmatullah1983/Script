@@ -28,7 +28,7 @@ const ImageList = [
     },
 ];
 
-const Hero = () => {
+const Hero = ({ handleOrderPopup }) => {
     let settings = {
         dots: false,
         arrows: false,
@@ -43,7 +43,7 @@ const Hero = () => {
     };
 
     return (
-        <div className='relative overflow-hidden h-[35rem] sm:min-h-[40rem] bg-green-100 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200'>
+        <div className='pt-[25vh] sm:pt-0   relative overflow-hidden h-[35rem] sm:min-h-[40rem] bg-green-100 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200'>
             {/* background pattern */}
             <div className='h-[44rem] w-[44rem] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z-9'></div>
 
@@ -53,7 +53,7 @@ const Hero = () => {
                         <div key={data.id}>
                             <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
                                 {/* Text content section */}
-                                <div className='flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10'>
+                                <div className='flex flex-col justify-center gap-4 pt-12 sm:pt-0  text-center sm:text-left order-2 sm:order-1 relative z-10'>
                                     <h1
                                         data-aos="zoom-in"
                                         data-aos-duration="500"
@@ -73,6 +73,7 @@ const Hero = () => {
                                         data-aos-duration="500"
                                         data-aos-delay="300">
                                         <button
+                                            onClick={handleOrderPopup}
                                             className='bg-gradient-to-r from-primary to-secondary shadow-lg hover:scale-105 duration-200 text-white py-2 px-4 rounded-full'>
                                             Order Now
                                         </button>
@@ -93,6 +94,8 @@ const Hero = () => {
                     ))}
                 </Slider>
             </div>
+
+
         </div>
     )
 }
