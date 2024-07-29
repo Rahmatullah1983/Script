@@ -3,7 +3,7 @@ import { IoCloseOutline } from "react-icons/io5";
 
 const Popup = ({ orderPopup, setOrderPopup }) => {
 
-    const handleOrderPopup = () => { setOrderPopup(!orderPopup) }
+    
     return (
         <>
             {orderPopup && (
