@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: " #fea928",
+        bgSideBar: " #AFAFAFAF",
         secondary: "#ed8900"
       },
       container: {
