@@ -1,9 +1,11 @@
 import React from 'react'
-import Home from './componants/Home'
+import Finance from './componants/finance/finance'
+// import Home from './componants/Home'
 const App = () => {
   return (
-    <div>
-      <Home />
+    <div className='flex'>
+      <Finance />
+      {/* <Home /> */}
     </div>
   )
 }

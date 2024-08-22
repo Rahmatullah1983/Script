@@ -11,7 +11,8 @@ export default {
     extend: {
       colors: {
         bgSideBar: " #AFAFAFAF",
-        secondary: "#ed8900"
+        primary: " #FBB33E",
+
       },
       container: {
         center: true,
