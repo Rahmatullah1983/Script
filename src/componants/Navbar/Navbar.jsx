@@ -19,7 +19,7 @@ import ArrowImg from '../../Assets/Logo/SideBar/arrow.png'
 const Navbar = () => {
     return (
         <div className='flex flex-col space-y-5 relative
-        bg-bgSideBar w-[350px] h-[937px] ml-[52px] shadow-lg'>
+        bg-bgSideBar w-[350px] h-[937px] ml-[52px] shadow-[4px_0_16px_rgba(0,0,0,0.5)]'>
 
             <div className='w-[px] h-[100px] mt-[-10px] ml-[85px]'>
                 <img src={LogoImg} alt="Logo" />
